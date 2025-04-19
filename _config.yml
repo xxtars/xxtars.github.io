@@ -24,8 +24,8 @@ author:
   avatar           : "photo.jpg"
   name             : "Bohao Xing"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : # "Short biography for the left-hand sidebar"
+  location         : "Finland"
   employer         : "LUT University"
   uri              : # URL
   email            : "bohao.xing@lut.fi" 
