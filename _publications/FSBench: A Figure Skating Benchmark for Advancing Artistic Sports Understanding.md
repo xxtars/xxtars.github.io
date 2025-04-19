@@ -4,7 +4,7 @@ collection: publications
 category: conference
 permalink: # /publication/2015-10-01-paper-title-number-3
 excerpt: # 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2025
+date: 2025-02-26
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 authors: Gao Rong, Liu Xin, Hu Zhuozhao, <strong>Xing Bohao</strong>, Xia Baiqiang, Yu Zitong, Kälviäinen Heikki
 slidesurl: # 'http://academicpages.github.io/files/slides3.pdf'
