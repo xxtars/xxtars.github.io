@@ -3,28 +3,37 @@
 
 @string{aps = {American Physical Society,}}
 
-@ARTICLE{li2024enhancing,
-  author={Li*, Deng and Xing*, Bohao and Liu, Xin},
-  journal={IEEE Signal Processing Letters}, 
-  title={Enhancing Micro Gesture Recognition for Emotion Understanding via Context-Aware Visual-Text Contrastive Learning}, 
-  year={2024},
-  volume={31},
-  number={},
-  pages={1309-1313},
-  keywords={journal},
-  doi={10.1109/LSP.2024.3396656}
-  }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2026 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-@article{xing2024emo,
-  title={Emo-llama: Enhancing facial emotion understanding with instruction tuning},
-  author={Xing, Bohao and Yu, Zitong and Liu, Xin and Yuan, Kaishen and Ye, Qilang and Xie, Weicheng and Yue, Huanjing and Yang, Jingyu and K{\"a}lvi{\"a}inen, Heikki},
-  journal={arXiv preprint arXiv:2408.11424},
-  year={2024},
-  keywords={preprint},
+@inproceedings{xing2026emotionhallucer,
+  title={Emotionhallucer: Evaluating emotion hallucinations in multimodal large language models},
+  author={Xing, Bohao and Liu, Xin and Zhao, Guoying and Liu, Chengyu and Fu, Xiaolan and K{\"a}lvi{\"a}inen, Heikki},
+  booktitle={Proceedings of The Fourteenth International Conference on Learning Representations (ICLR)}, 
+  year={2026},
+  keywords={accepted},
+  selected={true}
 }
 
-@ARTICLE{gao2025identity,
+@article{xing2026mgmila,
+  author  = {Xing, Bohao and Li, Deng and Gao, Rong and Liu, Xin and Kalviainen, Heikki},
+  title   = {MGMILA: Eulerian Motion-aware MILA for Micro-gesture Recognition},
+  journal = {Machine Intelligence Research},
+  year    = {2026},
+  keywords={accepted},
+  doi     = {10.1007/s11633-025-1587-8}，
+  selected={true}
+}
+
+@article{li2025msf,
+  title={MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition},
+  author={Li, Deng and Shao, Jun and Xing, Bohao and Gao, Rong and Wen, Bihan and K{\"a}lvi{\"a}inen, Heikki and Liu, Xin},
+  journal={IEEE Transactions on Multimedia},
+  year={2026},
+  keywords={accepted},
+  selected={true}
+}
+
+@ARTICLE{gao2026identity,
   author={Gao, Rong and Liu, Xin and Xing, Bohao and Yu, Zitong and Schuller, Bjorn W. and Kälviäinen, Heikki},
   journal={IEEE Transactions on Affective Computing}, 
   title={Identity-Free Artificial Emotional Intelligence via Micro-Gesture Understanding}, 
@@ -37,22 +46,29 @@
   selected={true}
 }
 
-
-
-@article{li2024eald,
-  title={Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model},
-  author={Li, Deng and Liu, Xin and Xing, Bohao and Xia, Baiqiang and Zong, Yuan and Wen, Bihan and K{\"a}lvi{\"a}inen, Heikki},
-  journal={arXiv preprint arXiv:2405.00574},
-  year={2024},
-  keywords={preprint},
+@article{yuan2026multigranularity,
+  author  = {Yuan, Kaishen and Yu, Zitong and Liu, Xin and Xing, Bohao and Zhang, Yuting and Xie, Weicheng and Shen, Linlin and Schuller, Bjorn W.},
+  title   = {Multi-granularity Facial Emotional Representation with Unlabeled Data and Textual Supervision},
+  journal = {IEEE Transactions on Image Processing},
+  year    = {2026},
+  keywords={accepted},
 }
 
-@article{meng2024scfusionttt,
-  title={scFusionTTT: Single-cell transcriptomics and proteomics fusion with Test-Time Training layers},
-  author={Meng*, Dian and Xing*, Bohao and Huang, Xinlei and Liu, Yanran and Zhou, Yijun and Yu, Zitong and Zheng, Xubin and others},
-  journal={arXiv preprint arXiv:2410.13257},
-  year={2024},
-  keywords={preprint},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2025 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{li2025deemo,
+author = {Li*, Deng and Xing*, Bohao and Liu, Xin and Xia, Baiqiang and Wen, Bihan and K\"{a}lvi\"{a}inen, Heikki},
+title = {DEEMO: De-identity Multimodal Emotion Recognition and Reasoning},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3746027.3755411},
+abstract = {Emotion understanding is a critical yet challenging task. Most existing approaches rely heavily on identity-sensitive information, such as facial expressions and speech, which raises concerns about personal privacy. To address this, we introduce the De-identity Multimodal Emotion Recognition and Reasoning ( DEEMO ), a novel task designed to enable emotion understanding using de-identified video and audio inputs. The DEEMO dataset consists of two subsets:  DEEMO-NFBL , which includes rich annotations of Non-Facial Body Language (NFBL), and  DEEMO-MER , an instruction dataset for Multimodal Emotion Recognition and Reasoning using identity-free cues. This design supports emotion understanding without compromising identity privacy. In addition, we propose DEEMO-LLaMA, a Multimodal Large Language Model (MLLM) that integrates de-identified audio, video, and textual information to enhance both emotion recognition and reasoning. Extensive experiments show that DEEMO-LLaMA achieves state-of-the-art performance on both tasks, outperforming existing MLLMs by a significant margin, achieving 74.49\% accuracy and 74.45\% F1-score in de-identity emotion recognition, and 6.20 clue overlap and 7.66 label overlap in de-identity emotion reasoning. Our work contributes to ethical AI by advancing privacy-preserving emotion understanding and promoting responsible affective computing. The dataset and codes will be available at https://github.com/Leedeng/DEEMO.},
+booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)},
+pages = {5707–5716},
+numpages = {10},
+keywords = {conference},
+selected={true}
 }
 
 @INPROCEEDINGS{xing2025au,
@@ -80,53 +96,40 @@
   doi={10.1109/CVPR52734.2025.01269}
 }
 
-@inproceedings{li2025deemo,
-author = {Li*, Deng and Xing*, Bohao and Liu, Xin and Xia, Baiqiang and Wen, Bihan and K\"{a}lvi\"{a}inen, Heikki},
-title = {DEEMO: De-identity Multimodal Emotion Recognition and Reasoning},
-year = {2025},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-doi = {10.1145/3746027.3755411},
-abstract = {Emotion understanding is a critical yet challenging task. Most existing approaches rely heavily on identity-sensitive information, such as facial expressions and speech, which raises concerns about personal privacy. To address this, we introduce the De-identity Multimodal Emotion Recognition and Reasoning ( DEEMO ), a novel task designed to enable emotion understanding using de-identified video and audio inputs. The DEEMO dataset consists of two subsets:  DEEMO-NFBL , which includes rich annotations of Non-Facial Body Language (NFBL), and  DEEMO-MER , an instruction dataset for Multimodal Emotion Recognition and Reasoning using identity-free cues. This design supports emotion understanding without compromising identity privacy. In addition, we propose DEEMO-LLaMA, a Multimodal Large Language Model (MLLM) that integrates de-identified audio, video, and textual information to enhance both emotion recognition and reasoning. Extensive experiments show that DEEMO-LLaMA achieves state-of-the-art performance on both tasks, outperforming existing MLLMs by a significant margin, achieving 74.49\% accuracy and 74.45\% F1-score in de-identity emotion recognition, and 6.20 clue overlap and 7.66 label overlap in de-identity emotion reasoning. Our work contributes to ethical AI by advancing privacy-preserving emotion understanding and promoting responsible affective computing. The dataset and codes will be available at https://github.com/Leedeng/DEEMO.},
-booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)},
-pages = {5707–5716},
-numpages = {10},
-keywords = {conference},
-selected={true}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{xing2024emo,
+  title={Emo-llama: Enhancing facial emotion understanding with instruction tuning},
+  author={Xing, Bohao and Yu, Zitong and Liu, Xin and Yuan, Kaishen and Ye, Qilang and Xie, Weicheng and Yue, Huanjing and Yang, Jingyu and K{\"a}lvi{\"a}inen, Heikki},
+  journal={arXiv preprint arXiv:2408.11424},
+  year={2024},
+  keywords={preprint},
 }
 
-@article{li2025msf,
-  title={MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition},
-  author={Li, Deng and Shao, Jun and Xing, Bohao and Gao, Rong and Wen, Bihan and K{\"a}lvi{\"a}inen, Heikki and Liu, Xin},
-  journal={IEEE Transactions on Multimedia},
-  year={2026},
-  keywords={accepted},
-  selected={true}
+@ARTICLE{li2024enhancing,
+  author={Li*, Deng and Xing*, Bohao and Liu, Xin},
+  journal={IEEE Signal Processing Letters}, 
+  title={Enhancing Micro Gesture Recognition for Emotion Understanding via Context-Aware Visual-Text Contrastive Learning}, 
+  year={2024},
+  volume={31},
+  number={},
+  pages={1309-1313},
+  keywords={journal},
+  doi={10.1109/LSP.2024.3396656}
+  }
+
+@article{li2024eald,
+  title={Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model},
+  author={Li, Deng and Liu, Xin and Xing, Bohao and Xia, Baiqiang and Zong, Yuan and Wen, Bihan and K{\"a}lvi{\"a}inen, Heikki},
+  journal={arXiv preprint arXiv:2405.00574},
+  year={2024},
+  keywords={preprint},
 }
 
-@inproceedings{xing2026emotionhallucer,
-  title={Emotionhallucer: Evaluating emotion hallucinations in multimodal large language models},
-  author={Xing, Bohao and Liu, Xin and Zhao, Guoying and Liu, Chengyu and Fu, Xiaolan and K{\"a}lvi{\"a}inen, Heikki},
-  booktitle={Proceedings of The Fourteenth International Conference on Learning Representations (ICLR)}, 
-  year={2026},
-  keywords={accepted},
-  selected={true}
-}
-
-@article{yuan2026multigranularity,
-  author  = {Yuan, Kaishen and Yu, Zitong and Liu, Xin and Xing, Bohao and Zhang, Yuting and Xie, Weicheng and Shen, Linlin and Schuller, Bjorn W.},
-  title   = {Multi-granularity Facial Emotional Representation with Unlabeled Data and Textual Supervision},
-  journal = {IEEE Transactions on Image Processing},
-  year    = {2026},
-  keywords={accepted},
-}
-
-@article{xing2025mgmila,
-  author  = {Xing, Bohao and Li, Deng and Gao, Rong and Liu, Xin and Kalviainen, Heikki},
-  title   = {MGMILA: Eulerian Motion-aware MILA for Micro-gesture Recognition},
-  journal = {Machine Intelligence Research},
-  year    = {2026},
-  keywords={accepted},
-  doi     = {10.1007/s11633-025-1587-8}，
-  selected={true}
+@article{meng2024scfusionttt,
+  title={scFusionTTT: Single-cell transcriptomics and proteomics fusion with Test-Time Training layers},
+  author={Meng*, Dian and Xing*, Bohao and Huang, Xinlei and Liu, Yanran and Zhou, Yijun and Yu, Zitong and Zheng, Xubin and others},
+  journal={arXiv preprint arXiv:2410.13257},
+  year={2024},
+  keywords={preprint},
 }
