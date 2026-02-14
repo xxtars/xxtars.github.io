@@ -454,9 +454,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-machine-vision-and-digital-image-analysis",
+          title: 'Machine Vision and Digital Image Analysis',
+          description: "This course introduces fundamental concepts and methods in digital image processing and machine vision, including classical techniques and modern deep learning approaches.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
