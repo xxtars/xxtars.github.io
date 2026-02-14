@@ -18,7 +18,6 @@ cv:
       username: xxtars
 
   sections:
-
     Education:
       - institution: Tianjin University
         location: Tianjin, China
@@ -51,11 +50,9 @@ cv:
         end_date: 2023-08
 
     Teaching:
-      - institution: LUT University
-        course: Machine Vision and Digital Image Analysis (BM40A0801)
-        role: Teaching Assistant
-        start_date: 2025
-        end_date: 2026
+      - bullet: >
+          **Teaching Assistant**, *Machine Vision and Digital Image Analysis (BM40A0801)*,
+          LUT University (2025–2026)
 
     Publications:
       - title: Full publication list
@@ -70,19 +67,10 @@ cv:
         awarder: Tianjin University
 
     Service:
-      - role: Peer Reviewer – Journals
-        highlights:
-          - IEEE Transactions on Multimedia (TMM)
-          - Pattern Recognition (PR)
-          - IEEE Signal Processing Letters (SPL)
-          - ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
-          
-      - role: Peer Reviewer – Conferences
-        highlights:
-          - ICML 2026
-          - CVPR 2026
-          - ECCV 2026
-          - ICME 2026, 2025
-          - IJCB 2025
-          - SCIA 2025
-
+      - bullet: >
+          **Peer Reviewer (Journals):** IEEE Transactions on Multimedia (TMM);
+          Pattern Recognition (PR); IEEE Signal Processing Letters (SPL);
+          ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+      - bullet: >
+          **Peer Reviewer (Conferences):** ICML 2026; CVPR 2026; ECCV 2026;
+          ICME 2026/2025; IJCB 2025; SCIA 2025
