@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xxtars.github.io/al-folio/sitemap.xml
+Sitemap: https://xxtars.github.io/sitemap.xml
