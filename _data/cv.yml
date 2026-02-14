@@ -69,15 +69,20 @@ cv:
         date: 2018-2023
         awarder: Tianjin University
 
-Service:
-  - role: Peer Reviewer – Journals
-    highlights:
-      - IEEE Transactions on Multimedia (TMM)
-      - Pattern Recognition (PR)
-      - IEEE Signal Processing Letters (SPL)
-      - ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
-      
-  - role: Peer Reviewer – Conferences
-    highlights:
-      - ICML 2026, CVPR 2026, ECCV 2026, ICME 2026, ICME 2025, IJCB2025, SCIA2025
+    Service:
+      - role: Peer Reviewer – Journals
+        highlights:
+          - IEEE Transactions on Multimedia (TMM)
+          - Pattern Recognition (PR)
+          - IEEE Signal Processing Letters (SPL)
+          - ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+          
+      - role: Peer Reviewer – Conferences
+        highlights:
+          - ICML 2026
+          - CVPR 2026
+          - ECCV 2026
+          - ICME 2026, 2025
+          - IJCB 2025
+          - SCIA 2025
 
