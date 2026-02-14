@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper on identity-free emotion Understanding was accepted to IEEE T-AFFECT.
+One paper on identity-free emotion understanding was accepted to IEEE T-AFFECT.
