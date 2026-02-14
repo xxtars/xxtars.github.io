@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: HOME
 permalink: /
 subtitle: Doctoral Researcher, Lappeenranta-Lahti University of Technology LUT
 
