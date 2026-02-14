@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bohaoxing.github.io/al-folio/sitemap.xml
+Sitemap: https://xxtars.github.io/al-folio/sitemap.xml
