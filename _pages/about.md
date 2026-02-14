@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher, LUT University
+subtitle: Doctoral Researcher, Lappeenranta-Lahti University of Technology LUT
 
 profile:
   align: right
