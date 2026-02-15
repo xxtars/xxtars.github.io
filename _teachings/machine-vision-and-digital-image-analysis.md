@@ -8,7 +8,7 @@ teaching_team:
     role: Exercises
   - name: Bohao Xing
     role: Exercises
-year: 2025-2026
+year: 2026
 term: Academic Year
 location: LUT University
 course_id: BM40A0801
