@@ -1,12 +1,12 @@
 cv:
   name: Bohao Xing
-  label: Doctoral Researcher
+  label: Doctoral Researcher (Ph.D. Candidate)
   email: bohao.xing@lut.fi
   location: Lappeenranta, Finland
   image: ""
   summary: >
     Doctoral Researcher at the Computer Vision and Pattern Recognition Laboratory (CVPRL), 
-    LUT University. My research focuses on affective computing, micro-gesture analysis, 
+    LUT University. My research focuses on affective computing, 
     multimodal large language models, and trustworthy Emotion AI.
 
   social_networks:
@@ -41,8 +41,8 @@ cv:
         end_date: Present
         highlights:
           - Computer Vision and Pattern Recognition Laboratory (CVPRL)
-          - Research on affective computing and multimodal large language models
-
+          - Research on affective computing, multimodal large language models, and trustworthy Emotion AI
+          
       - company: Momenta
         position: R&D Intern, Camera OD
         location: Suzhou, China
@@ -71,6 +71,7 @@ cv:
           **Peer Reviewer (Journals):** IEEE Transactions on Multimedia (TMM);
           Pattern Recognition (PR); IEEE Signal Processing Letters (SPL);
           ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+          
       - bullet: >
           **Peer Reviewer (Conferences):** ICML 2026; CVPR 2026; ECCV 2026;
           ICME 2026/2025; IJCB 2025; SCIA 2025
