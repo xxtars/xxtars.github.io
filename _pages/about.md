@@ -2,7 +2,7 @@
 layout: about
 title: HOME
 permalink: /
-subtitle: Doctoral Researcher, Lappeenranta-Lahti University of Technology LUT
+subtitle: Doctoral Researcher (Ph.D. Candidate), Lappeenranta-Lahti University of Technology LUT
 
 profile:
   align: right
@@ -34,5 +34,5 @@ I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/he
 
 I received my M.Sc. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.
 
-My research focuses on affective computing, facial analysis, multimodal large language models, and trustworthy Emotion AI.
+My research focuses on affective computing, multimodal large language models, and trustworthy Emotion AI.
 
