@@ -465,6 +465,11 @@ ninja.data = [{
           title: 'Machine Vision and Digital Image Analysis',
           description: "This course introduces fundamental concepts and methods in digital image processing and machine vision, including classical techniques and modern deep learning approaches.",
           section: "Teachings",handler: () => {
+              window.location.href = "/teachings/machine-vision-and-digital-image-analysis-2025/";
+            },},{id: "teachings-machine-vision-and-digital-image-analysis",
+          title: 'Machine Vision and Digital Image Analysis',
+          description: "This course introduces fundamental concepts and methods in digital image processing and machine vision, including classical techniques and modern deep learning approaches.",
+          section: "Teachings",handler: () => {
               window.location.href = "/teachings/machine-vision-and-digital-image-analysis/";
             },},{
         id: 'social-cv',
