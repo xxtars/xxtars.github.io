@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  # limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -29,10 +29,9 @@ latest_posts:
 
 Welcome to my academic homepage.
 
-I am a Ph.D. candidate at the [Computer Vision and Pattern Recognition Laboratory (CVPRL)](https://www.lut.fi/en/research-groups/computer-vision-and-pattern-recognition-laboratory-cvprl), LUT University, Finland. 
+I am a Ph.D. candidate at the [Computer Vision and Pattern Recognition Laboratory (CVPRL)](https://www.lut.fi/en/research-groups/computer-vision-and-pattern-recognition-laboratory-cvprl), LUT University, Finland.
 I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/heikki-kalviainen) and collaborate closely with Prof. [Xin Liu](https://sites.google.com/view/xinliu/).
 
 I received my M.Sc. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.
 
 My research focuses on affective computing, multimodal large language models, and trustworthy Emotion AI.
-
