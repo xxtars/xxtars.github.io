@@ -6,8 +6,8 @@ cv:
   image: ""
   summary: >
     Doctoral Researcher at the Computer Vision and Pattern Recognition Laboratory (CVPRL), 
-    LUT University. My research focuses on affective computing, 
-    multimodal large language models, and trustworthy Emotion AI.
+    LUT University. My research focuses on affective computing and 
+    multimodal large language models, with an emphasis on privacy-preserving and trustworthy emotion understanding.
 
   social_networks:
     - network: Google Scholar
@@ -41,7 +41,7 @@ cv:
         end_date: Present
         highlights:
           - Computer Vision and Pattern Recognition Laboratory (CVPRL)
-          - Research on affective computing, multimodal large language models, and trustworthy Emotion AI
+          - Research on affective computing and multimodal large language models, with an emphasis on privacy-preserving and trustworthy emotion understanding
 
       - company: Momenta
         position: R&D Intern, Camera OD

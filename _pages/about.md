@@ -34,4 +34,4 @@ I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/he
 
 I received my M.Sc. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.
 
-My research focuses on affective computing, multimodal large language models, and trustworthy Emotion AI.
+My research focuses on affective computing and multimodal large language models, with an emphasis on privacy-preserving and trustworthy emotion understanding.
