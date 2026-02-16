@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Star and shooting line favicon">
+  <rect width="640" height="640" fill="#e7e7e7" />
+
+  <g stroke="#38c6cc" stroke-width="22" stroke-linecap="round" fill="none">
+    <line x1="118" y1="226" x2="304" y2="70" />
+    <line x1="189" y1="466" x2="353" y2="292" />
+    <line x1="430" y1="500" x2="604" y2="330" />
+    <line x1="390" y1="251" x2="409" y2="231" />
+  </g>
+
+  <g fill="#000">
+    <circle cx="104" cy="370" r="11" />
+    <circle cx="303" cy="214" r="11" />
+    <circle cx="492" cy="295" r="11" />
+  </g>
+
+  <g fill="#fff" stroke="#000" stroke-width="16" stroke-linejoin="round">
+    <path d="M145 160 L166 205 L216 211 L179 244 L189 293 L145 268 L101 293 L111 244 L74 211 L124 205 Z" />
+    <path d="M517 58 L536 97 L579 104 L548 133 L556 175 L517 153 L478 175 L486 133 L455 104 L498 97 Z" />
+    <path d="M165 392 L189 443 L245 451 L204 489 L214 546 L165 519 L116 546 L126 489 L85 451 L141 443 Z" />
+    <path d="M411 413 L434 460 L485 467 L448 501 L457 553 L411 528 L365 553 L374 501 L337 467 L388 460 Z" />
+  </g>
+</svg>
