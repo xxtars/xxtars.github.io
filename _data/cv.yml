@@ -42,7 +42,7 @@ cv:
         highlights:
           - Computer Vision and Pattern Recognition Laboratory (CVPRL)
           - Research on affective computing, multimodal large language models, and trustworthy Emotion AI
-          
+
       - company: Momenta
         position: R&D Intern, Camera OD
         location: Suzhou, China
@@ -66,12 +66,12 @@ cv:
         date: 2018-2023
         awarder: Tianjin University
 
-    Service:
+    Academic Service:
       - bullet: >
           **Peer Reviewer (Journals):** IEEE Transactions on Multimedia (TMM);
           Pattern Recognition (PR); IEEE Signal Processing Letters (SPL);
           ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
-          
+
       - bullet: >
           **Peer Reviewer (Conferences):** ICML 2026; CVPR 2026; ECCV 2026;
           ICME 2026/2025; IJCB 2025; SCIA 2025
