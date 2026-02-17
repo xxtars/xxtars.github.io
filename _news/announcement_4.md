@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper on facial action unit-based emotion recognition was accepted to IEEE T-IP.
+One paper on facial action unit-based emotion recognition was accepted to IEEE TIP.
