@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- One paper on Mamba for micro-gesture recognition was accepted to IEEE TMM.
+One paper on Mamba for micro-gesture recognition was accepted to IEEE TMM.
