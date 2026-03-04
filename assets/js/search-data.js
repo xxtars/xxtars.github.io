@@ -479,13 +479,6 @@ ninja.data = [{
           window.open("/assets/pdf/CV_TENK_BohaoXING.pdf", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%62%6F%68%61%6F.%78%69%6E%67@%6C%75%74.%66%69", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
