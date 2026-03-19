@@ -67,9 +67,10 @@ cv:
 
     Academic Service:
       - bullet: >
-          **Peer Reviewer (Journals):** IEEE Transactions on Multimedia (TMM);
-          Pattern Recognition (PR); IEEE Signal Processing Letters (SPL);
-          ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+          **Peer Reviewer (Journals):** IEEE Transactions on Affective Computing (TAFFC);
+          IEEE Transactions on Multimedia (TMM); Pattern Recognition (PR);
+          ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM);
+          IEEE Signal Processing Letters (SPL)
 
       - bullet: >
           **Peer Reviewer (Conferences):** ICML 2026; CVPR 2026; ECCV 2026;
