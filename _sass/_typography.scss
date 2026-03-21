@@ -20,9 +20,9 @@ h4,
 h5,
 h6 {
   color: var(--global-text-color);
-  font-family: "Newsreader", "Roboto Slab", serif;
-  font-weight: 300;
-  letter-spacing: -0.02em;
+  font-family: "Inter", "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 // Large display heading for the about page name
@@ -54,9 +54,9 @@ h6 {
 
 // Section headings (Selected Publications, News, etc.)
 article > h2 {
-  font-family: "Newsreader", "Roboto Slab", serif;
-  font-weight: 300;
-  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: var(--global-theme-color);
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--global-divider-color);

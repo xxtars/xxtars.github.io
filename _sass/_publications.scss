@@ -9,19 +9,19 @@
 
   h1 {
     color: var(--global-theme-color);
-    font-family: "Newsreader", serif;
-    font-weight: 300;
-    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
     text-align: left;
     margin-top: 1em;
     margin-bottom: 1em;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
   }
 
   h2 {
     margin-bottom: 1rem;
-    font-family: "Newsreader", serif;
-    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
 
     span {
       font-size: 1.5rem;
