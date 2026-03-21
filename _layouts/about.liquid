@@ -26,11 +26,6 @@ layout: default
               Download CV
             </a>
           {% endif %}
-          {% if page.selected_papers %}
-            <a class="btn-toc" href="#selected-publications">
-              Selected Publications &rarr;
-            </a>
-          {% endif %}
         </div>
       </article>
     </div>
@@ -69,6 +64,7 @@ layout: default
             <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
           </h2>
           <div class="section-line"></div>
+          <a class="section-link" href="{{ '/publications/' | relative_url }}">Full Bibliography</a>
         </div>
         {% include selected_papers.liquid %}
       </div>
