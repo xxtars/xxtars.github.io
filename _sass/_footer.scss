@@ -2,6 +2,65 @@
  * Footer styles
  ******************************************************************************/
 
+.site-footer {
+  border-top: 1px solid var(--global-divider-color);
+  background-color: var(--global-footer-bg-color);
+  padding: 3rem 0;
+  margin-top: 4rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .footer-social {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+
+    a {
+      color: var(--global-footer-text-color);
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+
+      i::before {
+        color: inherit;
+      }
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        image {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .footer-copy {
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    color: var(--global-footer-text-color);
+    opacity: 0.6;
+  }
+}
+
+// Keep old classes as fallbacks for other pages
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
@@ -12,10 +71,6 @@ footer.fixed-bottom {
     padding-top: 12px;
     padding-bottom: 10px;
     text-align: center;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
   }
 
   a {
