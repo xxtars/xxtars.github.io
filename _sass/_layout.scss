@@ -98,9 +98,16 @@ body.sticky-bottom-footer {
 .about-profile {
   width: 100% !important;
   float: none !important;
-  margin-left: 0 !important;
+  margin: 0 !important;
+
+  figure {
+    margin: 0;
+    width: 100%;
+  }
 
   img {
+    width: 100% !important;
+    max-width: 100% !important;
     aspect-ratio: 4 / 5;
     object-fit: cover;
   }
