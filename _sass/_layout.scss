@@ -99,8 +99,8 @@ body.sticky-bottom-footer {
 // =========================================================================
 
 .about-hero {
-  margin-bottom: 5rem;
-  padding-top: 1rem;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
 }
 
 .about-photo-col {
@@ -130,27 +130,22 @@ body.sticky-bottom-footer {
   }
 }
 
-// Entry label (monospace tag above name)
-.entry-label {
-  display: block;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  color: var(--global-text-color-light);
-  margin-bottom: 0.75rem;
-  opacity: 0.6;
-}
 
 // Bio text
 .about-bio {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.8;
-  color: var(--global-text-color-light);
-  font-weight: 300;
+  color: var(--global-text-color);
 
   p {
     margin-bottom: 0.75rem;
+  }
+
+  a {
+    border-bottom: 1px solid var(--global-divider-color);
+    &:hover {
+      border-bottom-color: var(--global-theme-color);
+    }
   }
 }
 
@@ -182,19 +177,6 @@ body.sticky-bottom-footer {
   }
 }
 
-.btn-toc {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--global-text-color-light) !important;
-  text-decoration: none !important;
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: var(--global-theme-color) !important;
-  }
-}
 
 // =========================================================================
 // Section headers with divider line
@@ -204,12 +186,12 @@ body.sticky-bottom-footer {
 .editorial-hr {
   border: none;
   border-top: 1px solid var(--global-divider-color);
-  margin: 0 0 5rem 0;
+  margin: 0 0 3.5rem 0;
 }
 
 .about-section {
   margin-top: 0;
-  margin-bottom: clamp(5rem, 12vh, 8rem);
+  margin-bottom: clamp(3rem, 8vh, 5rem);
 }
 
 .section-header {
@@ -257,11 +239,6 @@ body.sticky-bottom-footer {
   }
 }
 
-// Social section refinement
-.social-section {
-  padding-top: 1rem;
-  border-top: 1px solid var(--global-divider-color);
-}
 
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes

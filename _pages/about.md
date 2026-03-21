@@ -2,7 +2,7 @@
 layout: about
 title: HOME
 permalink: /
-subtitle: '<a href="https://www.lut.fi/en/profiles/bohao-xing">Doctoral Researcher (Ph.D. Candidate), Lappeenranta-Lahti University of Technology LUT</a>'
+subtitle: 'Doctoral Researcher (Ph.D. Candidate) · LUT University, Finland'
 
 profile:
   align: right
