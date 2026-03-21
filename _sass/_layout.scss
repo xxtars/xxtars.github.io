@@ -11,6 +11,9 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
   font-family: "Inter", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
   h1,
   h2,
@@ -39,6 +42,11 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: v.$max-content-width;
+}
+
+// Push footer to bottom when content is short
+.container[role="main"] {
+  flex: 1;
 }
 
 // Profile
