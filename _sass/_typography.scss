@@ -28,19 +28,27 @@ h6 {
 // Large display heading for the about page name
 .post-header .post-title {
   font-family: "Newsreader", "Roboto Slab", serif;
-  font-weight: 300;
-  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 4.5rem;
   letter-spacing: -0.04em;
-  line-height: 0.9;
-  color: var(--global-theme-color);
+  line-height: 0.95;
+  color: var(--global-text-color);
+
+  @media (min-width: 768px) {
+    font-size: 5.5rem;
+  }
 }
 
-// Subtitle with monospace-like metadata feel
+// Subtitle as small uppercase label
 .post-header .desc {
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
-  margin-top: 0.75rem;
-  letter-spacing: 0.01em;
+  font-family: "Inter", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--global-theme-color);
+  margin-top: 1rem;
 }
 
 // Section headings (Selected Publications, News, etc.)

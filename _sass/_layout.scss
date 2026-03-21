@@ -8,8 +8,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
   font-family: "Inter", "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
 
   h1,
   h2,
@@ -21,9 +21,6 @@ body {
   }
 }
 
-html[data-theme="dark"] body {
-  background-image: none;
-}
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
@@ -45,19 +42,25 @@ body.sticky-bottom-footer {
     width: 100%;
   }
 
-  // Offset shadow border effect from mockup
   position: relative;
 
+  // Decorative corner element (bottom-right)
   &::after {
     content: "";
     position: absolute;
-    top: 8px;
-    left: 8px;
-    right: -8px;
-    bottom: -8px;
-    border: 1px solid var(--global-divider-color);
-    z-index: -1;
+    bottom: -1.5rem;
+    right: -1.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-right: 1px solid var(--global-theme-color);
+    border-bottom: 1px solid var(--global-theme-color);
+    opacity: 0.2;
     pointer-events: none;
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
   }
 }
 
@@ -83,7 +86,8 @@ body.sticky-bottom-footer {
 // =========================================================================
 
 .about-hero {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
+  padding-top: 1rem;
 }
 
 .about-photo-col {
@@ -127,10 +131,10 @@ body.sticky-bottom-footer {
 
 // Bio text
 .about-bio {
-  font-size: 1.05rem;
-  line-height: 1.75;
-  color: var(--global-text-color);
-  max-width: 540px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--global-text-color-light);
+  font-weight: 300;
 
   p {
     margin-bottom: 0.75rem;
@@ -183,9 +187,16 @@ body.sticky-bottom-footer {
 // Section headers with divider line
 // =========================================================================
 
+// Signature divider between hero and sections
+.editorial-hr {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 0 0 5rem 0;
+}
+
 .about-section {
-  margin-top: 3.5rem;
-  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: clamp(5rem, 12vh, 8rem);
 }
 
 .section-header {
