@@ -133,8 +133,8 @@ body.sticky-bottom-footer {
 
 // Bio text
 .about-bio {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.125rem;
+  line-height: 1.75;
   color: var(--global-text-color);
 
   p {
@@ -162,10 +162,10 @@ body.sticky-bottom-footer {
   display: inline-block;
   background-color: var(--global-theme-color);
   color: white !important;
-  padding: 0.75rem 2rem;
+  padding: 0.7rem 1.75rem;
   border: 1px solid var(--global-theme-color);
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.65rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   text-decoration: none !important;
@@ -209,7 +209,7 @@ body.sticky-bottom-footer {
     white-space: nowrap;
     font-family: "Newsreader", serif;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: var(--global-theme-color);
     letter-spacing: -0.02em;
   }
@@ -222,8 +222,8 @@ body.sticky-bottom-footer {
 
   .section-link {
     white-space: nowrap;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.6rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--global-theme-color);
