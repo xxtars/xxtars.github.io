@@ -32,13 +32,13 @@
     color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     text-align: right;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.85rem;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
   }
 
   ol.bibliography {
@@ -47,9 +47,13 @@
     margin-top: 0;
 
     li {
-      margin-bottom: 1.5rem;
-      padding-bottom: 1.5rem;
+      margin-bottom: 0;
+      padding: 2rem 0;
       border-bottom: 1px solid var(--global-divider-color);
+
+      &:first-child {
+        padding-top: 1.5rem;
+      }
 
       &:last-child {
         border-bottom: none;
@@ -59,55 +63,87 @@
         display: inline-block;
       }
 
+      // Venue badge — small uppercase label, no fill
       .abbr {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-          color: white !important;
-          font-family: "JetBrains Mono", monospace;
-          font-size: 0.65rem;
-          letter-spacing: 0.1em;
+          background-color: transparent;
+          margin-bottom: 0;
+          color: var(--global-text-color-light) !important;
+          font-family: "Inter", sans-serif;
+          font-size: 0.6rem;
+          font-weight: 600;
+          letter-spacing: 0.15em;
           text-transform: uppercase;
+          padding: 0;
+          border: none;
 
           a {
-            color: white;
-
+            color: var(--global-text-color-light);
             &:hover {
+              color: var(--global-theme-color);
               text-decoration: none;
             }
           }
+
+          div {
+            display: inline;
+          }
+        }
+
+        // Small decorative line between badge and year
+        &::after {
+          content: "";
+          width: 1.5rem;
+          height: 1px;
+          background: var(--global-divider-color);
+          display: none; // shown via JS/year placement
         }
 
         .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          color: var(--global-highlight-color) !important;
+          border: 1px solid var(--global-highlight-color);
+          padding: 0.1rem 0.5rem;
+          font-size: 0.6rem;
         }
       }
 
+      // Title — Newsreader serif, moderate size
       .title {
-        font-weight: 400;
+        font-weight: 300;
         font-family: "Newsreader", serif;
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin-bottom: 0.25rem;
+        font-size: 1.35rem;
+        line-height: 1.35;
+        letter-spacing: -0.01em;
+        color: var(--global-text-color);
+        margin-bottom: 0.5rem;
       }
 
+      // Author — sans-serif, self is bold
       .author {
+        font-family: "Inter", sans-serif;
+        font-size: 0.9rem;
+        color: var(--global-text-color);
+        margin-bottom: 0.25rem;
+
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-divider-color);
 
           &:hover {
-            border-bottom-style: solid;
+            border-bottom-color: var(--global-theme-color);
             text-decoration: none;
           }
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
@@ -122,49 +158,59 @@
         }
       }
 
+      // Venue/periodical — small italic monospace
       .periodical {
-        font-size: 0.85rem;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.75rem;
+        font-style: italic;
         color: var(--global-text-color-light);
+        margin-top: 0.25rem;
+
+        em {
+          font-style: italic;
+        }
       }
 
+      // Link buttons — capsule/pill shape
       .links {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
         a.btn {
-          color: var(--global-text-color);
+          color: var(--global-text-color-light);
           border: 1px solid var(--global-divider-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding: 0.3rem 1rem;
           margin-left: 0;
-          font-family: "JetBrains Mono", monospace;
-          font-size: 0.7rem;
+          font-family: "Inter", sans-serif;
+          font-size: 0.65rem;
+          font-weight: 500;
           text-transform: uppercase;
-          letter-spacing: 0.1em;
+          letter-spacing: 0.05em;
+          border-radius: 9999px;
           transition: all 0.2s ease;
 
           &:hover {
-            color: white;
-            background-color: var(--global-theme-color);
+            color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: transparent;
           }
         }
         a.award.btn {
           border-color: var(--global-highlight-color);
+          color: var(--global-highlight-color);
         }
       }
 
       .badges {
-        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.25rem;
         span {
           display: inline-block;
-          color: v.$black-color;
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
-          }
         }
       }
 
@@ -173,10 +219,6 @@
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
 
         p {
@@ -193,10 +235,6 @@
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
 
