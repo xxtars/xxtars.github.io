@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/CV_TENK_BohaoXING.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum Vitae of Bohao Xing.
+description:
 toc:
   sidebar: left
 ---
