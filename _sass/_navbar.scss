@@ -9,6 +9,8 @@
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .navbar .dropdown-menu,
@@ -56,20 +58,29 @@
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
+    font-family: "Newsreader", serif;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    transition: color 0.2s ease;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color);
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 500;
     color: var(--global-theme-color);
 
     &:hover {

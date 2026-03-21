@@ -8,6 +8,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  font-family: "Inter", "Roboto", sans-serif;
 
   h1,
   h2,
@@ -17,6 +19,10 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+html[data-theme="dark"] body {
+  background-image: none;
 }
 
 body.fixed-top-nav {
@@ -37,6 +43,44 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    filter: grayscale(100%);
+    transition: filter 1s ease;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+
+  // Offset shadow border effect from mockup
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: -8px;
+    bottom: -8px;
+    border: 1px solid var(--global-divider-color);
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+// Lab notebook border accent — used on about page bio
+.lab-notebook-border {
+  border-left: 2px solid var(--global-theme-color);
+  padding-left: 1.5rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(0, 0, 0, 0.03);
   }
 }
 

@@ -5,18 +5,60 @@
 @use "variables" as v;
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--global-text-color);
+  font-family: "Newsreader", "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+// Large display heading for the about page name
+.post-header .post-title {
+  font-family: "Newsreader", "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 3.5rem;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  color: var(--global-theme-color);
+}
+
+// Subtitle with monospace-like metadata feel
+.post-header .desc {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+// Section headings (Selected Publications, News, etc.)
+article > h2 {
+  font-family: "Newsreader", "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--global-theme-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  a {
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.7;
+    }
+  }
 }
 
 hr {
@@ -38,10 +80,12 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  transition: opacity 0.2s ease;
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 0.7;
   }
 
   &:hover:after :not(.nav-item.dropdown) {

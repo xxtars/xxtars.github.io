@@ -10,7 +10,31 @@
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-family: "Newsreader", serif;
+    font-weight: 300;
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+  }
+}
+
+// News table on about page
+.news {
+  .table {
+    th {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--global-text-color-light);
+      font-weight: 400;
+      vertical-align: top;
+      padding-top: 0.75rem;
+    }
+
+    td {
+      font-size: 0.9rem;
+      padding-top: 0.75rem;
+    }
   }
 }
 
