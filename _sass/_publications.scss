@@ -32,13 +32,13 @@
     color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: right;
-    font-family: "Inter", monospace;
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.85rem;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
   }
 
   ol.bibliography {
@@ -47,216 +47,166 @@
     margin-top: 0;
 
     li {
-      margin-bottom: 0;
-      padding: 2rem 0;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
       border-bottom: 1px solid var(--global-divider-color);
-
-      &:first-child {
-        padding-top: 1rem;
-      }
 
       &:last-child {
         border-bottom: none;
       }
-    }
-  }
-}
 
-// Editorial bib entry layout
-.bib-entry {
-  .bib-meta {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
+      .preview {
+        display: inline-block;
+      }
 
-  .bib-badge {
-    abbr {
-      display: inline-block;
-      background-color: var(--global-theme-color);
-      color: white !important;
-      font-family: "Inter", sans-serif;
-      font-size: 0.6rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 0.2rem 0.5rem;
+      .abbr {
+        margin-bottom: 0.5rem;
 
-      a {
-        color: white;
-        &:hover {
-          text-decoration: none;
+        abbr {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          margin-bottom: 0.5rem;
+          color: white !important;
+          font-family: "JetBrains Mono", monospace;
+          font-size: 0.65rem;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+
+          a {
+            color: white;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        .award {
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
         }
       }
-    }
 
-    .award {
-      color: var(--global-theme-color) !important;
-      border: 1px solid var(--global-theme-color);
-      background: transparent;
-    }
-  }
+      .title {
+        font-weight: 500;
+        font-family: "Newsreader", serif;
+        font-size: 1.15rem;
+      }
 
-  .bib-year {
-    font-family: "Inter", monospace;
-    font-size: 0.6rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    color: var(--global-theme-color);
-    text-transform: uppercase;
-  }
+      .author {
+        a {
+          border-bottom: 1px dashed var(--global-theme-color);
 
-  .bib-title {
-    font-family: "Newsreader", serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
-    color: var(--global-text-color);
-    margin-bottom: 0.5rem;
-    transition: color 0.3s ease;
-  }
+          &:hover {
+            border-bottom-style: solid;
+            text-decoration: none;
+          }
+        }
 
-  &:hover .bib-title {
-    color: var(--global-theme-color);
-  }
+        > em {
+          border-bottom: 1px solid;
+          font-style: normal;
+        }
 
-  .bib-author {
-    font-family: "Newsreader", serif;
-    font-style: italic;
-    font-size: 1rem;
-    color: var(--global-text-color-light);
-    margin-bottom: 0.25rem;
+        > span.more-authors {
+          color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
+          cursor: pointer;
 
-    a {
-      border-bottom: 1px dashed var(--global-theme-color);
-      &:hover {
-        border-bottom-style: solid;
-        text-decoration: none;
+          &:hover {
+            color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
+          }
+        }
+      }
+
+      .links {
+        a.btn {
+          color: var(--global-text-color);
+          border: 1px solid var(--global-divider-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+          font-family: "JetBrains Mono", monospace;
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          transition: all 0.2s ease;
+
+          &:hover {
+            color: white;
+            background-color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+        }
+        a.award.btn {
+          border-color: var(--global-highlight-color);
+        }
+      }
+
+      .badges {
+        padding-bottom: 0.5rem;
+        span {
+          display: inline-block;
+          color: v.$black-color;
+          height: 100%;
+          padding-right: 0.5rem;
+          vertical-align: middle;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .hidden {
+        font-size: 0.875rem;
+        max-height: 0px;
+        overflow: hidden;
+        text-align: justify;
+        transition-property: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+        }
+
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
+      }
+
+      .hidden.open {
+        max-height: 100em;
+        transition-property: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+      }
+
+      div.abstract.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.abstract.hidden.open {
+        border-color: var(--global-text-color);
       }
     }
-
-    > em {
-      border-bottom: 1px solid;
-      font-style: normal;
-      font-weight: 500;
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
     }
-
-    > span.more-authors {
-      color: var(--global-text-color-light);
-      border-bottom: 1px dashed var(--global-text-color-light);
-      cursor: pointer;
-      &:hover {
-        color: var(--global-text-color);
-        border-bottom: 1px dashed var(--global-text-color);
-      }
-    }
-  }
-
-  .bib-venue {
-    font-family: "Inter", sans-serif;
-    font-size: 0.75rem;
-    color: var(--global-text-color-light);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.5rem;
-
-    em {
-      text-transform: none;
-      letter-spacing: normal;
-    }
-  }
-
-  .bib-preview {
-    margin: 1rem 0;
-
-    .preview {
-      max-width: 200px;
-    }
-  }
-
-  .bib-links {
-    margin-top: 0.75rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-
-    a.btn {
-      color: var(--global-text-color-light);
-      border: 1px solid var(--global-divider-color);
-      padding: 0.2rem 0.75rem;
-      font-family: "Inter", sans-serif;
-      font-size: 0.6rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      transition: all 0.2s ease;
-      border-radius: 0;
-
-      &:hover {
-        color: white;
-        background-color: var(--global-theme-color);
-        border-color: var(--global-theme-color);
-      }
-    }
-
-    a.award.btn {
+    div.award.hidden.open {
       border-color: var(--global-highlight-color);
-      color: var(--global-highlight-color);
     }
-  }
-
-  .badges {
-    padding-top: 0.5rem;
-    padding-bottom: 0.25rem;
-
-    span {
-      display: inline-block;
-      height: 100%;
-      padding-right: 0.5rem;
-      vertical-align: middle;
-    }
-  }
-
-  .hidden {
-    font-size: 0.875rem;
-    max-height: 0px;
-    overflow: hidden;
-    text-align: justify;
-    transition: all 0.15s ease;
-
-    p {
-      line-height: 1.4em;
-      margin: 10px;
-    }
-
-    pre {
-      font-size: 1em;
-      line-height: 1.4em;
-      padding: 10px;
-    }
-  }
-
-  .hidden.open {
-    max-height: 100em;
-    transition: all 0.15s ease;
-  }
-
-  div.abstract.hidden {
-    border: dashed 1px var(--global-bg-color);
-  }
-
-  div.abstract.hidden.open {
-    border-color: var(--global-text-color);
-  }
-
-  div.award.hidden {
-    border: dashed 1px var(--global-bg-color);
-  }
-
-  div.award.hidden.open {
-    border-color: var(--global-highlight-color);
   }
 }
 
