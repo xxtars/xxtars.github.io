@@ -3,10 +3,9 @@ layout: default
 ---
 <div class="post">
   <!-- Hero: two-column layout with name+bio left, photo right -->
-  <div class="row about-hero align-items-start">
+  <div class="row about-hero align-items-center">
     <div class="col-12 col-sm-8">
       <header class="post-header">
-        <span class="entry-label">Doctoral Researcher</span>
         <h1 class="post-title">
           {% if site.title == 'blank' %}
             <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -70,7 +69,6 @@ layout: default
             <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
           </h2>
           <div class="section-line"></div>
-          <a class="section-link" href="{{ '/publications/' | relative_url }}">Full Bibliography</a>
         </div>
         {% include selected_papers.liquid %}
       </div>
