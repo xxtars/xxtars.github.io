@@ -21,14 +21,14 @@ h5,
 h6 {
   color: var(--global-text-color);
   font-family: "Inter", "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.01em;
 }
 
 // Default page title (PUBLICATION, CV, TEACHING, etc.)
 .post-header .post-title {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.75rem;
   letter-spacing: -0.01em;
@@ -58,7 +58,7 @@ h6 {
 .post-header .desc {
   font-family: "Inter", sans-serif;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--global-theme-color);
@@ -69,7 +69,7 @@ h6 {
 // Section headings (Selected Publications, News, etc.)
 article > h2 {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.5rem;
   color: var(--global-theme-color);
   padding-bottom: 0.5rem;
