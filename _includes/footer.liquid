@@ -1,13 +1,13 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container">
-    <div class="footer-social">
-      {% social_links %}
-    </div>
     <div class="footer-copy">
       &copy; {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
       {{ site.last_name }}.
+    </div>
+    <div class="footer-social">
+      {% social_links %}
     </div>
   </div>
 </footer>

@@ -10,6 +10,7 @@ body {
   background-color: var(--global-bg-color);
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
   font-family: "Inter", "Roboto", sans-serif;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   display: flex;
@@ -99,8 +100,8 @@ body.sticky-bottom-footer {
 // =========================================================================
 
 .about-hero {
-  margin-bottom: 4rem;
-  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+  padding-top: 1rem;
 }
 
 .about-photo-col {
@@ -134,11 +135,11 @@ body.sticky-bottom-footer {
 // Bio text
 .about-bio {
   font-size: 1.125rem;
-  line-height: 1.75;
+  line-height: 1.5;
   color: var(--global-text-color);
 
   p {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 
   a {
@@ -167,7 +168,7 @@ body.sticky-bottom-footer {
   font-family: "Inter", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
   text-decoration: none !important;
   transition: all 0.3s ease;
 
@@ -186,12 +187,12 @@ body.sticky-bottom-footer {
 .editorial-hr {
   border: none;
   border-top: 1px solid var(--global-divider-color);
-  margin: 0 0 3.5rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .about-section {
   margin-top: 0;
-  margin-bottom: clamp(3rem, 8vh, 5rem);
+  margin-bottom: 2.5rem;
 }
 
 .section-header {
@@ -225,7 +226,7 @@ body.sticky-bottom-footer {
     font-family: "Inter", sans-serif;
     font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
     color: var(--global-theme-color);
     text-decoration: none;
     border-bottom: 1px solid var(--global-divider-color);

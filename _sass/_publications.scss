@@ -36,9 +36,9 @@
     text-align: right;
     font-family: "Inter", sans-serif;
     font-size: 0.7rem;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.05em;
   }
 
   ol.bibliography {
@@ -55,11 +55,11 @@
 
     li {
       margin-bottom: 0;
-      padding: 2rem 0;
+      padding: 1.5rem 0;
       border-bottom: 1px solid var(--global-divider-color);
 
       &:first-child {
-        padding-top: 1.5rem;
+        padding-top: 1rem;
       }
 
       &:last-child {
@@ -85,7 +85,7 @@
           font-family: "Inter", sans-serif;
           font-size: 0.6rem;
           font-weight: 400;
-          letter-spacing: 0.15em;
+          letter-spacing: 0.05em;
           text-transform: uppercase;
           padding: 0;
           border: none;
@@ -200,7 +200,7 @@
           font-size: 0.75rem;
           font-weight: 500;
           text-transform: uppercase;
-          letter-spacing: 0.03em;
+          letter-spacing: 0.02em;
           border-radius: 9999px;
           transition: all 0.2s ease;
 
