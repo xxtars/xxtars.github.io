@@ -8,6 +8,7 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
   font-family: "Inter", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 
@@ -21,6 +22,9 @@ body {
   }
 }
 
+html[data-theme="dark"] body {
+  background-image: none;
+}
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
