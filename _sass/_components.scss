@@ -92,7 +92,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media (min-width: 576px) {
-  .profile {
+  .profile:not(.about-profile) {
     width: 30%;
 
     .address {

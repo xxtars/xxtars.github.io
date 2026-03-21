@@ -78,6 +78,160 @@ body.sticky-bottom-footer {
   }
 }
 
+// =========================================================================
+// About page hero layout
+// =========================================================================
+
+.about-hero {
+  margin-bottom: 4rem;
+}
+
+.about-photo-col {
+  margin-top: 1rem;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+// Override profile float behavior inside about hero
+.about-profile {
+  width: 100% !important;
+  float: none !important;
+  margin-left: 0 !important;
+
+  img {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+}
+
+// Entry label (monospace tag above name)
+.entry-label {
+  display: block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.75rem;
+  opacity: 0.6;
+}
+
+// Bio text
+.about-bio {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--global-text-color);
+  max-width: 540px;
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+}
+
+// Action buttons below bio
+.about-actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.btn-dossier {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  color: white !important;
+  padding: 0.75rem 2rem;
+  border: 1px solid var(--global-theme-color);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--global-theme-color) !important;
+  }
+}
+
+.btn-toc {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--global-text-color-light) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--global-theme-color) !important;
+  }
+}
+
+// =========================================================================
+// Section headers with divider line
+// =========================================================================
+
+.about-section {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.5rem;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    white-space: nowrap;
+    font-family: "Newsreader", serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--global-theme-color);
+    letter-spacing: -0.02em;
+  }
+
+  .section-line {
+    flex-grow: 1;
+    height: 1px;
+    background: transparent;
+  }
+
+  .section-link {
+    white-space: nowrap;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 2px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+// Social section refinement
+.social-section {
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
