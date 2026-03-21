@@ -17,23 +17,54 @@
   }
 }
 
-// News table on about page
+// News editorial layout
 .news {
-  .table {
-    th {
-      font-family: "JetBrains Mono", monospace;
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--global-text-color-light);
-      font-weight: 400;
-      vertical-align: top;
-      padding-top: 0.75rem;
+  .news-list {
+    padding: 0;
+  }
+
+  .news-item {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
     }
 
-    td {
-      font-size: 0.9rem;
-      padding-top: 0.75rem;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+  }
+
+  .news-date {
+    flex-shrink: 0;
+    min-width: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--global-theme-color);
+    padding-top: 0.15rem;
+  }
+
+  .news-content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--global-text-color);
+
+    a.news-title {
+      color: var(--global-text-color);
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
     }
   }
 }
