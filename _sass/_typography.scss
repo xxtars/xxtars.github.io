@@ -25,15 +25,29 @@ h6 {
   letter-spacing: -0.01em;
 }
 
-// Large display heading for the about page name
+// Default page title (PUBLICATION, CV, TEACHING, etc.)
 .post-header .post-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.75rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--global-text-color);
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+// Large display heading — only on about page
+.about-hero .post-header .post-title {
   font-family: "Newsreader", "Roboto Slab", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 4.5rem;
   letter-spacing: -0.04em;
   line-height: 0.95;
-  color: var(--global-text-color);
 
   @media (min-width: 768px) {
     font-size: 5.5rem;

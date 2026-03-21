@@ -47,6 +47,12 @@
     margin-top: 0;
     overflow-x: hidden;
 
+    .row {
+      @media (min-width: 576px) {
+        flex-wrap: nowrap;
+      }
+    }
+
     li {
       margin-bottom: 0;
       padding: 2rem 0;
