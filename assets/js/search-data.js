@@ -493,6 +493,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/bohao-xing-2780273b9", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-5924-4178", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
