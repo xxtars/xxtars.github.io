@@ -2,7 +2,7 @@
 layout: about
 title: HOME
 permalink: /
-subtitle: 'Doctoral Researcher (Ph.D. Candidate) · LUT University, Finland'
+subtitle: 'Junior Researcher (Ph.D. Candidate) · LUT University, Finland'
 
 profile:
   align: right

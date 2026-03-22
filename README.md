@@ -1,6 +1,6 @@
 # bohaoxing.com
 
-Personal academic website of **Bohao Xing**, Doctoral Researcher at LUT University, Finland.
+Personal academic website of **Bohao Xing**, Junior Researcher at LUT University, Finland.
 
 🔗 **Live site:** [bohaoxing.com](https://bohaoxing.com)
 

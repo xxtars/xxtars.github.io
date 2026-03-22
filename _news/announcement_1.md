@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined LUT University as a Doctoral Researcher in the Computer Vision and Pattern Recognition Laboratory (CVPRL).
+I joined LUT University as a Junior Researcher in the Computer Vision and Pattern Recognition Laboratory (CVPRL).
