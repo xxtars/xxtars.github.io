@@ -472,18 +472,18 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/machine-vision-and-digital-image-analysis/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/CV_TENK_BohaoXING.pdf", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=CzmYh2EAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-5924-4178", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -493,11 +493,18 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/bohao-xing-2780273b9", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0009-0005-5924-4178", "_blank");
+          window.open("https://github.com/xxtars", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/CV_TENK_BohaoXING.pdf", "_blank");
         },
       },{
       id: 'light-theme',
