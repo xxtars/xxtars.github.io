@@ -44,9 +44,9 @@ Recommended prior courses:
 
 ## Teaching Staff
 
-**Lectures**  
-Ing. Radek Marik, CSc.
+**Lectures**
+- Ing. Radek Marik, CSc.
 
-**Exercises**  
-Rong Gao  
-Bohao Xing
+**Exercises**
+- Rong Gao
+- Bohao Xing
