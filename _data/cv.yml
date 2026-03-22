@@ -1,6 +1,6 @@
 cv:
   name: Bohao Xing
-  label: Junior Researcher
+  label: Junior Researcher (Ph.D. Candidate)
   location: Lappeenranta, Finland
   image: ""
   summary: >
@@ -41,7 +41,7 @@ cv:
 
     Experience:
       - company: LUT University
-        position: Junior Researcher (PhD Candidate)
+        position: Junior Researcher
         location: Lappeenranta, Finland
         start_date: 2024-11
         end_date: Present
