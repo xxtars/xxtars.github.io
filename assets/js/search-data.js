@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-joined-lut-university-as-a-doctoral-researcher-in-the-computer-vision-and-pattern-recognition-laboratory-cvprl",
-          title: 'I joined LUT University as a Doctoral Researcher in the Computer Vision and...',
+            },},{id: "news-i-joined-lut-university-as-a-junior-researcher-in-the-computer-vision-and-pattern-recognition-laboratory-cvprl",
+          title: 'I joined LUT University as a Junior Researcher in the Computer Vision and...',
           description: "",
           section: "News",},{id: "news-one-paper-on-mllm-for-identity-free-emotion-understanding-was-accepted-to-acm-mm-2025",
           title: 'One paper on MLLM for identity-free emotion understanding was accepted to ACM MM...',
