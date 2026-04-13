@@ -1,43 +1,55 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-04-13'
 papers:
+  CzmYh2EAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: 'MGMILA: Eulerian Motion-aware MILA for Micro-gesture Recognition'
+    year: '2026'
+  CzmYh2EAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer'
+    year: '2026'
   CzmYh2EAAAAJ:LkGwnXOMwfcC:
-    citations: 10
+    citations: 16
     title: 'Deemo: De-identity multimodal emotion recognition and reasoning'
     year: '2025'
   CzmYh2EAAAAJ:Se3iqnhoufwC:
-    citations: 0
+    citations: 2
     title: 'MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition'
     year: '2026'
   CzmYh2EAAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 19
     title: 'Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model'
     year: '2024'
   CzmYh2EAAAAJ:W7OEmFMy1HYC:
-    citations: 23
+    citations: 28
     title: Enhancing micro gesture recognition for emotion understanding via context-aware visual-text contrastive learning
     year: '2024'
   CzmYh2EAAAAJ:WF5omc3nYNoC:
-    citations: 8
+    citations: 9
     title: 'AU-TTT: Vision Test-Time Training model for Facial Action Unit Detection'
     year: '2025'
   CzmYh2EAAAAJ:Y0pCki6q_DkC:
-    citations: 9
+    citations: 13
     title: Identity-free artificial emotional intelligence via micro-gesture understanding
     year: '2026'
   CzmYh2EAAAAJ:YsMSGLbcyi4C:
-    citations: 39
+    citations: 44
     title: 'Emo-llama: Enhancing facial emotion understanding with instruction tuning'
     year: '2024'
   CzmYh2EAAAAJ:_FxGoFyzp5QC:
-    citations: 8
+    citations: 10
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
     year: '2025'
   CzmYh2EAAAAJ:eQOLeE2rZwMC:
     citations: 2
     title: 'scFusionTTT: Single-cell transcriptomics and proteomics fusion with Test-Time Training layers'
     year: '2024'
+  CzmYh2EAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Multi-granularity Facial Emotional Representation with Unlabeled Data and Textual Supervision
+    year: '2026'
   CzmYh2EAAAAJ:roLk4NBRz8UC:
-    citations: 5
+    citations: 8
     title: 'Emotionhallucer: Evaluating emotion hallucinations in multimodal large language models'
     year: '2026'
