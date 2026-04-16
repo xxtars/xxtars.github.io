@@ -30,7 +30,7 @@ latest_posts:
 Welcome to my academic homepage.
 
 I am a Ph.D. candidate at the [Computer Vision and Pattern Recognition Laboratory (CVPRL)](https://www.lut.fi/en/research-groups/computer-vision-and-pattern-recognition-laboratory-cvprl), LUT University, Finland.
-I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/heikki-kalviainen) and collaborate closely with Prof. [Xin Liu](https://sites.google.com/view/xinliu/).
+I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/heikki-kalviainen), with Prof. [Xin Liu](https://linuxsino.github.io/) as co-supervisor. I also collaborate closely with Prof. [Guoying Zhao](https://gyzhao-nm.github.io/Guoying/) and Prof. [Zitong Yu](https://zitong-yu.github.io/yzt/).
 
 I received my M.Sc. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.
 
