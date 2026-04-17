@@ -49,6 +49,15 @@ cv:
           - Computer Vision and Pattern Recognition Laboratory (CVPRL)
           - Research on affective computing and multimodal large language models, with an emphasis on privacy-preserving and trustworthy emotion understanding
 
+      - company: Great Bay University
+        position: Research Assistant
+        location: Dongguan, China
+        start_date: 2024-01
+        end_date: 2024-06
+        highlights:
+          - YU Vision Group, supervised by Prof. Zitong Yu
+          - Research on affective multimodal large language models
+
       - company: Momenta
         position: R&D Intern, Camera OD
         location: Suzhou, China
