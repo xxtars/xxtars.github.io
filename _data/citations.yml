@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-05-08'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: 'Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer'
     year: '2026'
   CzmYh2EAAAAJ:LkGwnXOMwfcC:
-    citations: 16
+    citations: 19
     title: 'Deemo: De-identity multimodal emotion recognition and reasoning'
     year: '2025'
   CzmYh2EAAAAJ:Se3iqnhoufwC:
@@ -26,19 +26,19 @@ papers:
     title: Enhancing micro gesture recognition for emotion understanding via context-aware visual-text contrastive learning
     year: '2024'
   CzmYh2EAAAAJ:WF5omc3nYNoC:
-    citations: 10
+    citations: 12
     title: 'AU-TTT: Vision Test-Time Training model for Facial Action Unit Detection'
     year: '2025'
   CzmYh2EAAAAJ:Y0pCki6q_DkC:
-    citations: 14
+    citations: 15
     title: Identity-free artificial emotional intelligence via micro-gesture understanding
     year: '2026'
   CzmYh2EAAAAJ:YsMSGLbcyi4C:
-    citations: 45
+    citations: 46
     title: 'Emo-llama: Enhancing facial emotion understanding with instruction tuning'
     year: '2024'
   CzmYh2EAAAAJ:_FxGoFyzp5QC:
-    citations: 10
+    citations: 11
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
     year: '2025'
   CzmYh2EAAAAJ:eQOLeE2rZwMC:
@@ -50,6 +50,6 @@ papers:
     title: Multi-granularity Facial Emotional Representation with Unlabeled Data and Textual Supervision
     year: '2026'
   CzmYh2EAAAAJ:roLk4NBRz8UC:
-    citations: 9
+    citations: 10
     title: 'Emotionhallucer: Evaluating emotion hallucinations in multimodal large language models'
     year: '2026'
