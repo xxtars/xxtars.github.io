@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper on human action dynamics understanding was accepted to Knowledge-Based Systems.
+One paper on human action dynamics understanding was accepted to KBS.
