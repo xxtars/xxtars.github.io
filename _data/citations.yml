@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-08'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: Enhancing micro gesture recognition for emotion understanding via context-aware visual-text contrastive learning
     year: '2024'
   CzmYh2EAAAAJ:WF5omc3nYNoC:
-    citations: 12
+    citations: 13
     title: 'AU-TTT: Vision Test-Time Training model for Facial Action Unit Detection'
     year: '2025'
   CzmYh2EAAAAJ:Y0pCki6q_DkC:
@@ -34,9 +34,9 @@ papers:
     title: Identity-free artificial emotional intelligence via micro-gesture understanding
     year: '2026'
   CzmYh2EAAAAJ:YsMSGLbcyi4C:
-    citations: 48
+    citations: 47
     title: 'Emo-llama: Enhancing facial emotion understanding with instruction tuning'
-    year: '2024'
+    year: '2026'
   CzmYh2EAAAAJ:_FxGoFyzp5QC:
     citations: 12
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
