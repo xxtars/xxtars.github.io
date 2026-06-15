@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-15'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -30,15 +30,15 @@ papers:
     title: 'AU-TTT: Vision Test-Time Training model for Facial Action Unit Detection'
     year: '2025'
   CzmYh2EAAAAJ:Y0pCki6q_DkC:
-    citations: 16
+    citations: 17
     title: Identity-free artificial emotional intelligence via micro-gesture understanding
     year: '2026'
   CzmYh2EAAAAJ:YsMSGLbcyi4C:
-    citations: 47
+    citations: 49
     title: 'Emo-llama: Enhancing facial emotion understanding with instruction tuning'
     year: '2026'
   CzmYh2EAAAAJ:_FxGoFyzp5QC:
-    citations: 12
+    citations: 13
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
     year: '2025'
   CzmYh2EAAAAJ:eQOLeE2rZwMC:
