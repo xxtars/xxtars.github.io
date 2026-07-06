@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-06'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,15 +10,15 @@ papers:
     title: 'Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer'
     year: '2026'
   CzmYh2EAAAAJ:LkGwnXOMwfcC:
-    citations: 21
+    citations: 22
     title: 'Deemo: De-identity multimodal emotion recognition and reasoning'
     year: '2025'
   CzmYh2EAAAAJ:Se3iqnhoufwC:
-    citations: 2
+    citations: 3
     title: 'MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition'
     year: '2026'
   CzmYh2EAAAAJ:Tyk-4Ss8FVUC:
-    citations: 19
+    citations: 21
     title: 'Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model'
     year: '2024'
   CzmYh2EAAAAJ:W7OEmFMy1HYC:
