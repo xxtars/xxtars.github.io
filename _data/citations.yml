@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-15'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: 'Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model'
     year: '2024'
   CzmYh2EAAAAJ:W7OEmFMy1HYC:
-    citations: 29
+    citations: 30
     title: Enhancing micro gesture recognition for emotion understanding via context-aware visual-text contrastive learning
     year: '2024'
   CzmYh2EAAAAJ:WF5omc3nYNoC:
