@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-03'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,19 +10,19 @@ papers:
     title: 'Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer'
     year: '2026'
   CzmYh2EAAAAJ:LkGwnXOMwfcC:
-    citations: 24
+    citations: 27
     title: 'Deemo: De-identity multimodal emotion recognition and reasoning'
     year: '2025'
   CzmYh2EAAAAJ:Se3iqnhoufwC:
-    citations: 4
+    citations: 5
     title: 'MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition'
     year: '2026'
   CzmYh2EAAAAJ:Tyk-4Ss8FVUC:
-    citations: 23
+    citations: 24
     title: 'Eald-mllm: Emotion analysis in long-sequential and de-identity videos with multi-modal large language model'
     year: '2024'
   CzmYh2EAAAAJ:W7OEmFMy1HYC:
-    citations: 31
+    citations: 33
     title: Enhancing micro gesture recognition for emotion understanding via context-aware visual-text contrastive learning
     year: '2024'
   CzmYh2EAAAAJ:WF5omc3nYNoC:
@@ -34,11 +34,11 @@ papers:
     title: Identity-free artificial emotional intelligence via micro-gesture understanding
     year: '2026'
   CzmYh2EAAAAJ:YsMSGLbcyi4C:
-    citations: 51
+    citations: 53
     title: 'Emo-llama: Enhancing facial emotion understanding with instruction tuning'
     year: '2026'
   CzmYh2EAAAAJ:_FxGoFyzp5QC:
-    citations: 14
+    citations: 15
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
     year: '2025'
   CzmYh2EAAAAJ:eQOLeE2rZwMC:
@@ -50,6 +50,6 @@ papers:
     title: Multi-granularity Facial Emotional Representation with Unlabeled Data and Textual Supervision
     year: '2026'
   CzmYh2EAAAAJ:roLk4NBRz8UC:
-    citations: 12
+    citations: 13
     title: 'Emotionhallucer: Evaluating emotion hallucinations in multimodal large language models'
     year: '2026'
