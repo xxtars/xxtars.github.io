@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-10'
 papers:
   CzmYh2EAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: 'Deemo: De-identity multimodal emotion recognition and reasoning'
     year: '2025'
   CzmYh2EAAAAJ:Se3iqnhoufwC:
-    citations: 5
+    citations: 6
     title: 'MSF-Mamba: Motion-aware State Fusion Mamba for Efficient Micro-Gesture Recognition'
     year: '2026'
   CzmYh2EAAAAJ:Tyk-4Ss8FVUC:
@@ -42,7 +42,7 @@ papers:
     title: 'FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding'
     year: '2025'
   CzmYh2EAAAAJ:eQOLeE2rZwMC:
-    citations: 2
+    citations: 3
     title: 'scFusionTTT: Single-cell transcriptomics and proteomics fusion with Test-Time Training layers'
     year: '2024'
   CzmYh2EAAAAJ:hqOjcs7Dif8C:
