@@ -70,6 +70,12 @@ cv:
           LUT University (Spring 2025, Spring 2026)
 
     Publications:
+      - title: "Diving-R1: Empowering Multimodal LLMs with Traceable Progressive Reasoning for Interpretable Diving Action Quality Assessment"
+        date: 2026
+        publisher: Advances in Neural Information Processing Systems (NeurIPS), accepted as a poster
+        url: /publications/#diving-r1
+        summary: Kaishen Yuan, Yuting Zhang, **Bohao Xing**, Wenshuo Chen, Yang Yang, Shaofeng Liang, Zitong Yu, and Yutao Yue
+
       - title: Full publication list
         url: /publications/
 

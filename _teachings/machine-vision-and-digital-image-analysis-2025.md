@@ -47,12 +47,14 @@ Recommended prior courses:
 ## Teaching Staff
 
 **Lectures**
+
 - Xin Liu
 - Deng Li
 - Rong Gao
 - Bohao Xing
 
 **Exercises**
+
 - Deng Li
 - Rong Gao
 - Bohao Xing
