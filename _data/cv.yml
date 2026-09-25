@@ -74,7 +74,7 @@ cv:
         date: 2026
         publisher: Advances in Neural Information Processing Systems (NeurIPS)
         url: /publications/#diving-r1
-        summary: Kaishen Yuan, Yuting Zhang, **Bohao Xing**, Wenshuo Chen, Yang Yang, Shaofeng Liang, Zitong Yu, and Yutao Yue
+        summary: Kaishen Yuan<sup>*</sup>, Yuting Zhang<sup>*</sup>, **Bohao Xing**, Wenshuo Chen, Yang Yang, Shaofeng Liang, Zitong Yu, and Yutao Yue. <sup>*</sup>Equal contribution.
 
       - title: Full publication list
         url: /publications/
