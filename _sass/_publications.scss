@@ -171,16 +171,17 @@
         }
       }
 
-      // Venue/periodical — small italic monospace
+      // Keep venue details readable alongside the serif paper titles.
       .periodical {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.75rem;
-        font-style: italic;
+        font-family: "Inter", sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
         color: var(--global-text-color-light);
         margin-top: 0.25rem;
 
         em {
-          font-style: italic;
+          font-style: normal;
+          color: inherit;
         }
       }
 

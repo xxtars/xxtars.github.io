@@ -8,25 +8,40 @@
         {% assign year_courses = year_group.items | sort: 'term' %}
         {% for course in year_courses %}
           <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
-
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
-              {% endif %}
-
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
+            <div class="course-heading">
+              <h3 class="course-title">
+                <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+              </h3>
+              {% if course.course_id %}
+                <p class="course-id">
+                  {{ course.course_id -}}
+                  {%- if course.credits %} · {{ course.credits }}{% endif %}
+                </p>
               {% endif %}
             </div>
 
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
+            <div class="course-details">
+              <div class="course-meta">
+                {% for member in course.teaching_team %}
+                  {% if member.name == site.data.cv.cv.name %}
+                    <span class="course-role">Teaching Assistant · {{ member.role }}</span>
+                  {% endif %}
+                {% endfor %}
+                {% if course.term %}
+                  <span class="course-term">{{ course.term }}</span>
+                {% endif %}
+
+                {% if course.instructor %}
+                  <span class="course-instructor">Instructor: {{ course.instructor }}</span>
+                {% endif %}
               </div>
-            {% endif %}
+
+              {% if course.description %}
+                <div class="course-description">
+                  {{ course.description | markdownify }}
+                </div>
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
       </div>

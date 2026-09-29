@@ -1,6 +1,6 @@
 ---
 layout: about
-title: HOME
+title: Home
 permalink: /
 subtitle: "Junior Researcher (Ph.D. Candidate) · LUT University, Finland"
 
@@ -27,11 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my academic homepage.
-
 I am a Ph.D. candidate at the [Computer Vision and Pattern Recognition Laboratory (CVPRL)](https://www.lut.fi/en/research-groups/computer-vision-and-pattern-recognition-laboratory-cvprl), LUT University, Finland.
+
+My research focuses on trustworthy emotion understanding with multimodal large language models. Beyond improving their emotion understanding capabilities, I am particularly interested in privacy preservation, reliability, and interpretability.
+
 I am supervised by Prof. [Heikki Kälviäinen](https://www.lut.fi/en/profiles/heikki-kalviainen), with Prof. [Xin Liu](https://linuxsino.github.io/) as co-supervisor. I also collaborate closely with Prof. [Guoying Zhao](https://gyzhao-nm.github.io/Guoying/).
 
-I received my M.Sc. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.
-
-My research focuses on affective computing and multimodal large language models, with an emphasis on privacy-preserving and trustworthy emotion understanding.
+I received my M.Eng. and B.Eng. degrees from Tianjin University, China, in 2024 and 2021, respectively.

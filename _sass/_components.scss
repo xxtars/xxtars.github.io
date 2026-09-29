@@ -114,18 +114,55 @@ ul.task-list input[type="checkbox"] {
 .cv {
   margin-bottom: 40px;
 
+  .table {
+    color: var(--global-text-color);
+  }
+
   .card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    background-color: transparent;
+    border: 0;
+    border-top: 1px solid var(--global-divider-color);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 1.5rem 0 !important;
+    margin-top: 0 !important;
+    transition: none;
+
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
 
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-text-color-light) !important;
+        background-color: transparent !important;
+        padding: 0;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        font-weight: 400 !important;
+        text-transform: none !important;
+        white-space: normal;
       }
+    }
+  }
+
+  .date-column {
+    width: auto;
+    transform: none;
+    text-align: left !important;
+
+    .location {
+      white-space: normal;
+      margin-top: 0.25rem;
     }
   }
 }

@@ -2,34 +2,25 @@
 layout: default
 ---
 <div class="post">
-  <!-- Hero: two-column layout with name+bio left, photo right -->
-  <div class="row about-hero align-items-center">
-    <div class="col-12 col-sm-8">
-      <header class="post-header">
-        <h1 class="post-title">
-          {% if site.title == 'blank' %}
-            {{ site.first_name }}
-            {{ site.middle_name }}
-            {{ site.last_name }}
-          {% else %}
-            {{ site.title }}
-          {% endif %}
-        </h1>
-        <p class="desc">{{ page.subtitle }}</p>
-      </header>
+  <div class="about-hero">
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
 
-      <article>
-        <div class="about-bio">{{ content }}</div>
+    <article class="about-intro">
+      <div class="about-bio">{{ content }}</div>
+    </article>
 
-        <div class="about-actions">
-          {% if page.cv_pdf %}
-            <a class="btn-dossier" href="{{ page.cv_pdf | relative_url }}"> View CV </a>
-          {% endif %}
-        </div>
-      </article>
-    </div>
-
-    <div class="col-12 col-sm-4 about-photo-col">
+    <div class="about-photo-col">
       {% if page.profile %}
         <div class="profile about-profile">
           {% if page.profile.image %}
@@ -39,10 +30,10 @@ layout: default
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) 300px, (min-width: 768px) 30vw, 112px{% endcapture %}
+            {% assign profile_alt = site.first_name | append: ' ' | append: site.last_name %}
             {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_alt
               cache_bust=true
             %}
           {% endif %}

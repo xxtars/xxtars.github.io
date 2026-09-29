@@ -20,6 +20,8 @@
 // News table on about page
 .news {
   .table {
+    color: var(--global-text-color);
+
     th {
       font-family: "Inter", sans-serif;
       font-size: 0.8rem;

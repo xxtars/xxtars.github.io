@@ -1,0 +1,14 @@
+{%- assign value = include.value | append: '' | strip -%}
+{%- if value == '' or value == 'Present' or value == 'present' -%}
+  Present
+{%- else -%}
+  {%- assign parts = value | split: '-' -%}
+  {%- if parts.size > 1 -%}
+    {%- assign months = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec' | split: ',' -%}
+    {%- assign month_index = parts[1] | minus: 1 -%}
+    {{- months[month_index] }}
+    {{ parts[0] -}}
+  {%- else -%}
+    {{- value -}}
+  {%- endif -%}
+{%- endif -%}
