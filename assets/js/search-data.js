@@ -106,7 +106,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_TENK_BohaoXING.pdf", "_blank");
+          window.open("/%7B%22value%22=%3E%22/assets/pdf/CV_TENK_BohaoXING.pdf%22,%20%22logo%22=%3E%22cv-icon%22%7D", "_blank");
         },
       },{
       id: 'light-theme',
