@@ -34,6 +34,16 @@
         color: inherit;
       }
 
+      .cv-icon {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: -0.125em;
+        background-color: currentColor;
+        -webkit-mask: url("../img/icons/file-user.svg") center / contain no-repeat;
+        mask: url("../img/icons/file-user.svg") center / contain no-repeat;
+      }
+
       img {
         width: 1.5rem;
         height: 1.5rem;

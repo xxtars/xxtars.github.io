@@ -3,4 +3,6 @@ scholar_userid: CzmYh2EAAAAJ
 orcid_id: 0009-0005-5924-4178
 linkedin_username: bohao-xing-2780273b9
 github_username: xxtars
-cv_pdf: /assets/pdf/CV_TENK_BohaoXING.pdf
+cv_pdf:
+  value: /assets/pdf/CV_TENK_BohaoXING.pdf
+  logo: cv-icon
