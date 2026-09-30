@@ -34,6 +34,11 @@
         color: inherit;
       }
 
+      .ai-google-scholar::before {
+        // Academicons' filled square variant, matching the other footer icons.
+        content: "\e9f9";
+      }
+
       .cv-icon {
         display: inline-block;
         width: 1.5rem;
