@@ -12,7 +12,7 @@
 
 ## Publications 与 PDF CV
 
-- 网页论文条目显示标题、作者、期刊或会议、年份以及可用链接，不额外显示 `Accepted for publication`。内部可保留 `keywords={accepted}`；不要因此改动 PDF CV 的接收论文分类。
+- 网页和 PDF 的单篇论文条目都不额外显示 `Accepted for publication`。网页显示标题、作者、期刊或会议、年份以及可用链接；PDF 沿用已有引文格式。内部可保留 `keywords={accepted}`，PDF 的 accepted / in press 分类标题保留，不在每篇条目后重复标注接收状态。
 - 正式 DOI、卷期、页码尚未提供时不编造。期刊扩展版与原会议论文作为独立成果保留。
 - 新论文默认加入完整 Publications 列表，不自动加入首页 Selected Publications。首页精选及其顺序由 `selected` 和 `display_order` 控制。
 - 官方 BibTeX 与网页展示链接分开维护。ICLR 的官方论文页面按钮用 `ICLR Proceedings`；额外链接放在 `_data/publication_links.yml`，不要仅为按钮改写官方 BibTeX。PDF 可在展示层补充同名链接。
