@@ -14,6 +14,7 @@
 
 - 网页和 PDF 的单篇论文条目都不额外显示 `Accepted for publication`。网页显示标题、作者、期刊或会议、年份以及可用链接；PDF 沿用已有引文格式。内部可保留 `keywords={accepted}`，PDF 的 accepted / in press 分类标题保留，不在每篇条目后重复标注接收状态。
 - 正式 DOI、卷期、页码尚未提供时不编造。期刊扩展版与原会议论文作为独立成果保留。
+- 已有正式卷期的论文，网页 Publications 的年份与分组、PDF CV 的引文年份统一采用出版社的正式出版年份，即使该年份晚于接收、在线发表或当前年份。不要根据 DOI 中的年份推断出版年份，也不写双年份；News 保留实际接收消息的日期，不随卷期年份调整。
 - 新论文默认加入完整 Publications 列表，不自动加入首页 Selected Publications。首页精选及其顺序由 `selected` 和 `display_order` 控制。
 - 官方 BibTeX 与网页展示链接分开维护。ICLR 的官方论文页面按钮用 `ICLR Proceedings`；额外链接放在 `_data/publication_links.yml`，不要仅为按钮改写官方 BibTeX。PDF 可在展示层补充同名链接。
 - 论文或审稿经历的事实信息更新时，同步网站与 PDF CV 的相关内容，并检查论文数量、作者顺序、姓名重音符号和共同一作标记；仅调整网页展示的请求按其范围处理。
